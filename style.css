@@ -1,0 +1,23 @@
+.clock-face{
+    border: 10px solid black;
+    border-radius:100px;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    margin-top:100px;
+}
+body{
+    background-color: rgba(117, 112, 109, 0.52);
+}
+.hand{
+    height:4px;
+    width:70px;
+    background-color:white;
+    position:relative;
+    top: 50%;
+    left:10%;
+    transform-origin: 97%;
+    transform: rotate(90deg);
+    transition: all 0.5s;
+    transition-timing-function: cubic-bezier(0.44, 1.97, 0.24, 1.96);
+}
